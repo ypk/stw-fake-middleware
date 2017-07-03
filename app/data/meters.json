@@ -1,0 +1,62 @@
+{
+  "message": [{
+    "links": [],
+    "type": "W",
+    "accountNumber": "152027339",
+    "cupsUsageAreaCode": "1",
+    "dialDigitsLeft": "5",
+    "dialDigitsRight": "0",
+    "equipmentStatusCode": "I",
+    "meterNum": "00145370",
+    "meterLocationDescript": "CHAMBER IN FIELD, FOLLOW GPS THROUGH GATE RHS DRIVE WALK 45DEGREES ACROSS FIELD 17X11 ACROSS STREAM BY MARKER",
+    "propertyId": "152026240",
+    "registerNum": "1",
+    "revenueClassificationCode": "R",
+    "routeNumber": "122571",
+    "servProvCode": "W",
+    "targetInternalEquipNum": "94002367",
+    "targetInternalMeterRegNum": "271002137",
+    "unitOfMeasurementCode": "M3",
+    "address": {
+      "line3": "MAES HAFREN",
+      "city": "MONTGOMERY",
+      "postcode": "SY15 6RW",
+      "addressCode": 0
+    },
+    "readingTypeDescription": "Actual",
+    "createdDate": 1497913200000,
+    "reading": "4897",
+    "serviceAddress": "MAES HAFREN, GARTHMYL, MONTGOMERY, SY15 6RW",
+    "overrideValidation": false
+  },
+  {
+    "links": [],
+    "type": "W",
+    "accountNumber": "151120210",
+    "cupsUsageAreaCode": "1",
+    "dialDigitsLeft": "5",
+    "dialDigitsRight": "0",
+    "equipmentStatusCode": "I",
+    "meterNum": "00123446",
+    "meterLocationDescript": "INSIDE THE GATE, FOLLOW GPS THROUGH GATE LHS DRIVE WALK 30DEGREES ACROSS FIELD 05X02 ACROSS GRASS BY MARKER",
+    "propertyId": "150111964",
+    "registerNum": "1",
+    "revenueClassificationCode": "R",
+    "routeNumber": "122372",
+    "servProvCode": "W",
+    "targetInternalEquipNum": "94027598",
+    "targetInternalMeterRegNum": "298091120",
+    "unitOfMeasurementCode": "M3",
+    "address": {
+      "line3": "22 WHATLINGTON ROAD",
+      "city": "COVENTRY",
+      "postcode": "CV1 0GS",
+      "addressCode": 0
+    },
+    "readingTypeDescription": "Actual",
+    "createdDate": 1497913200000,
+    "reading": "3271",
+    "serviceAddress": "22 WHATLINGTON ROAD, COVENTRY, CV1 0GS",
+    "overrideValidation": false
+  }]
+}

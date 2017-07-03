@@ -1,0 +1,10 @@
+{
+  "email": "test@keytree.co.uk",
+  "wssLegalEntity": {
+    "wssLegalEntityAccount": [{
+      "wssAccountNumber": 123456780
+    }],
+    "wssLegalEntityId": "000000001"
+  },
+  "wssUsername": "timellis1"
+}
