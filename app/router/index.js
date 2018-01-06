@@ -8,7 +8,7 @@ const DB = require('../dbhandler').DBHandler;
   TBD
 */
 router.use('/cxf/rest-auth/WSSAccounts/Auth/ResetUsername', function(req, res, next) {
-  res.set("X-Powered-By", "Your Mum")
+  res.set("X-Powered-By", "STW Fake Middleware")
   res.set("Content-Type", "application/json")
   if (req.method === "POST") {
     console.log(req);
@@ -21,7 +21,7 @@ router.use('/cxf/rest-auth/WSSAccounts/Auth/ResetUsername', function(req, res, n
   TBD
 */
 router.use('/cxf/registration/WSSAccounts', function(req, res, next) {
-  res.set("X-Powered-By", "Your Mum")
+  res.set("X-Powered-By", "STW Fake Middleware")
   res.set("Content-Type", "application/json")
     console.log("In wss accounts call");
   if (req.method === "POST") {
@@ -36,7 +36,7 @@ router.use('/cxf/registration/WSSAccounts', function(req, res, next) {
   lists associated accounts
 */
 router.use('/cxf/registration/WSSAccounts/legal-entity', function(req, res, next) {
-  res.set("X-Powered-By", "Your Mum")
+  res.set("X-Powered-By", "STW Fake Middleware")
   res.set("Content-Type", "application/json")
   console.log("In legal-entity call");
   if (req.method === "GET") {
@@ -51,7 +51,7 @@ router.use('/cxf/registration/WSSAccounts/legal-entity', function(req, res, next
   authenticates user
 */
 router.use('/cxf/rest-auth/WSSAccounts/Auth', function(req, res, next) {
-  res.set("X-Powered-By", "Your Mum")
+  res.set("X-Powered-By", "STW Fake Middleware")
   res.set("Content-Type", "application/json")
   if (req.method === "PUT") {
     if ((req.body.username == "stwuser") && (req.body.password == "Password1")) {
@@ -69,7 +69,7 @@ router.use('/cxf/rest-auth/WSSAccounts/Auth', function(req, res, next) {
   returns meters list
 */
 router.use('/cxf/meter/Meters', function(req, res, next) {
-  res.set("X-Powered-By", "Your Mum")
+  res.set("X-Powered-By", "STW Fake Middleware")
   res.set("Content-Type", "application/json")
   if (req.method === "GET") {
     res.status(200)
